@@ -21,8 +21,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     max-width: 100%;
     display: flex;
-    width: fit-content;
-    border-radius: 50px;    
+    width: fit-content;    
 }
 
 .item-div {
