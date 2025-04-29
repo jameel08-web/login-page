@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #7c2ae8;
+}
+
+.login {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    max-width: 100%;
+    display: flex;
+    width: fit-content;
+
+    
+}
+
+.item-div {
+    background-color: white;
+    width: 450px;   
+    padding: 30px;  
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    color: #7c2ae8;
+    font-size: 18px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 400px;
+    padding: 10px 10px 10px 30px; 
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#email {
+    margin-bottom: 30px;
+}
+
+.custom-image {
+    width: 500px;
+    height: 100%;
+    opacity: 0.7;
+}
+
+p {
+    color: #7c2ae8;
+}
+
+button {
+    background-color: #7c2ae8;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#last {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.fa-envelope {
+    position: absolute;
+    left: 8px;
+    top: 20%;
+    color: #7c2ae8;
+    font-size: 18px;    
+}
+.image-detail{
+  text-align: center ;
+  position: relative;
+}
+.advanture{
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 120px;
+    width: 50%;
+    line-height: 38px;
+    opacity: 0.7;
+}
+.connect {
+    color: black;
+    position: absolute;
+    top: 235px;
+    left: 180px;
+    color: white;
+    opacity: 0.7;
+}
