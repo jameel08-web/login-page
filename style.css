@@ -22,14 +22,14 @@ body {
     max-width: 100%;
     display: flex;
     width: fit-content;
-
-    
+    border-radius: 50px;    
 }
 
 .item-div {
     background-color: white;
     width: 450px;   
     padding: 30px;  
+  
 }
 
 h2 {
